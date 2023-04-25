@@ -1,6 +1,7 @@
 from pwn import *
 import paramiko
 
+##modify the host IP and the username to match you environment
 host = "127.0.0.1"
 username = "user"
 attempts = 0
